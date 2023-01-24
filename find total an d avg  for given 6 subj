@@ -1,0 +1,10 @@
+Telugu= float(input("Enter the marks of Telugu:"))
+Hindhi = float(input("Enter the marks of Hindhi:"))
+English = float(input("Enter the marks of English:"))
+Maths = float(input("Enter the marks of Maths:"))
+Science = float(input("Enter the marks of Science:"))
+Social = float(input("Enter the marks of Social :"))
+total = Telugu + Hindhi + English + Maths + Science + Social
+print("total",total)
+avg = total/6
+print("The total percentage is", avg, "%")
